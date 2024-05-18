@@ -19,7 +19,7 @@
 - - -
 安装完毕后你可能需要修改的文件（如果你啥也不改那放着就行）  
 1. `/etc/v2ray/sh/src/download.sh`  这是更新啊啥的
-2. `/etc/v2ray/sh/src/core.sh`  脚本核心，找到get_ip方法后改成和我这个脚本里的get_ip方法一样就行了
+2. `/etc/v2ray/sh/src/core.sh`  脚本核心，找到get_ip方法后把export行内引号内容改成和我这个脚本里的get_ip方法一样就行了
 
 - - -
 [源wiki](https://233boy.com/v2ray/v2ray-script/)  
